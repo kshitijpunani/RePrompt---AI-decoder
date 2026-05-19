@@ -27,7 +27,7 @@ app = FastAPI(title="RePrompt API")
 
 os.makedirs("static", exist_ok=True)
 
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyDDHs-KwdFJMbjRYIgmyW4KAeFgl6FDMpM")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyBLYUmLIL13HLAy_JBQIKWEJVtoDcB7YTU")
 
 # It's good practice to add a safeguard so the app fails loudly if the key is missing
 if not GEMINI_API_KEY:
